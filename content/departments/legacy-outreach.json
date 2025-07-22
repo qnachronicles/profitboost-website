@@ -1,0 +1,79 @@
+{
+  "name": "Legacy + Outreach",
+  "tagline": "Community Empowerment & Disability Advocacy",
+  "description": "Offering advocacy, storytelling, and resources for families managing disabilities, alongside business guidance for parents and caregivers. We use strategic storytelling to highlight realities while equipping families to build sustainable income and legacy.",
+  "mission": "To empower families managing disabilities by providing advocacy, resources, and business guidance that helps them build sustainable income streams while creating lasting legacies rooted in faith and purpose.",
+  "logo": "/logos/legacy-outreach-logo.png",
+  "services": [
+    {
+      "title": "Disability Advocacy",
+      "description": "Strategic storytelling to highlight the realities of parenting children with disabilities",
+      "icon": "🤝"
+    },
+    {
+      "title": "Family Resources",
+      "description": "Biblically grounded tools for families aligning business, purpose, and calling",
+      "icon": "👨‍👩‍👧‍👦"
+    },
+    {
+      "title": "Educational Tools",
+      "description": "Resources and guidance for families managing disabilities while building legacy",
+      "icon": "📚"
+    },
+    {
+      "title": "Entrepreneurship Support",
+      "description": "Business guidance for parents and caregivers building sustainable income",
+      "icon": "💼"
+    }
+  ],
+  "impact": [
+    {
+      "area": "Community Empowerment",
+      "description": "Building stronger communities through advocacy and support",
+      "icon": "🌟"
+    },
+    {
+      "area": "Family Strengthening",
+      "description": "Equipping families with tools and resources for success",
+      "icon": "💪"
+    },
+    {
+      "area": "Legacy Building",
+      "description": "Helping families create lasting impact for future generations",
+      "icon": "🏗️"
+    },
+    {
+      "area": "Faith Integration",
+      "description": "Weaving biblical principles into every aspect of family and business life",
+      "icon": "✝️"
+    }
+  ],
+  "values": [
+    {
+      "title": "Faith-Centered",
+      "description": "Every service and resource is grounded in biblical principles and God's love.",
+      "icon": "🙏"
+    },
+    {
+      "title": "Compassionate Care",
+      "description": "We approach every family with empathy, understanding, and genuine care.",
+      "icon": "💝"
+    },
+    {
+      "title": "Purpose-Driven",
+      "description": "Helping families discover and walk in their God-given purpose and calling.",
+      "icon": "🎯"
+    },
+    {
+      "title": "Legacy Focused",
+      "description": "Building sustainable foundations that impact generations to come.",
+      "icon": "🌱"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "linkedin": ""
+  }
+}
+

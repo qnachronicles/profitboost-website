@@ -1,0 +1,35 @@
+{
+  "name": "New Thing Hustle",
+  "tagline": "Motivation, Strategy & Faith-Based Business Inspiration",
+  "description": "Helping digital entrepreneurs launch and scale through innovative strategies, faceless content creation, and faith-driven business principles. Build your God-centered business without compromise.",
+  "logo": "/logos/new-thing-hustle-logo.png",
+  "services": [
+    {
+      "title": "Faceless YouTube Strategy",
+      "description": "Learn to create engaging content without showing your face",
+      "icon": "📺"
+    },
+    {
+      "title": "Digital Product Creation",
+      "description": "Build and launch digital products that serve your audience",
+      "icon": "💻"
+    },
+    {
+      "title": "Consulting Packages",
+      "description": "One-on-one guidance for your business journey",
+      "icon": "🎯"
+    },
+    {
+      "title": "Faith-Driven Templates & AI Tools",
+      "description": "Resources that align with your values and beliefs",
+      "icon": "✨"
+    }
+  ],
+  "social": {
+    "instagram": "https://www.instagram.com/newthinghamustle",
+    "tiktok": "https://www.tiktok.com/@newthinghamustle",
+    "youtube": "https://www.youtube.com/@newthinghamustle",
+    "facebook": ""
+  }
+}
+

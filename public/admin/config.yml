@@ -1,0 +1,164 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: "site-settings"
+    label: "Site Settings"
+    files:
+      - label: "Company Information"
+        name: "company"
+        file: "content/company.json"
+        fields:
+          - { label: "Company Name", name: "name", widget: "string", default: "ProfitBoost LLC" }
+          - { label: "Tagline", name: "tagline", widget: "string", default: "Build better. Empower your legacy." }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Phone", name: "phone", widget: "string", required: false }
+          - { label: "Email", name: "email", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "text", required: false }
+
+  - name: "departments"
+    label: "Departments"
+    files:
+      - label: "New Thing Hustle"
+        name: "new-thing-hustle"
+        file: "content/departments/new-thing-hustle.json"
+        fields:
+          - { label: "Department Name", name: "name", widget: "string", default: "New Thing Hustle" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Service Name", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "string", required: false }
+          - label: "Social Media"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+              - { label: "TikTok URL", name: "tiktok", widget: "string", required: false }
+              - { label: "YouTube URL", name: "youtube", widget: "string", required: false }
+              - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+
+      - label: "ProfitBoost Consulting"
+        name: "profitboost-consulting"
+        file: "content/departments/profitboost-consulting.json"
+        fields:
+          - { label: "Department Name", name: "name", widget: "string", default: "ProfitBoost Consulting" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
+          - label: "Statistics"
+            name: "stats"
+            widget: "object"
+            fields:
+              - { label: "Assets Managed", name: "assets", widget: "string", default: "$10M+" }
+              - { label: "Clients Served", name: "clients", widget: "string", default: "500+" }
+              - { label: "Years Experience", name: "experience", widget: "string", default: "15+" }
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Service Name", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "string", required: false }
+          - label: "Social Media"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "LinkedIn URL", name: "linkedin", widget: "string", required: false }
+              - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+
+      - label: "Q&A Chronicles"
+        name: "qa-chronicles"
+        file: "content/departments/qa-chronicles.json"
+        fields:
+          - { label: "Department Name", name: "name", widget: "string", default: "Q&A Chronicles" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Mission Statement", name: "mission", widget: "text" }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
+          - label: "Brands"
+            name: "brands"
+            widget: "list"
+            fields:
+              - { label: "Brand Name", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "string", required: false }
+          - label: "Featured Products"
+            name: "products"
+            widget: "list"
+            fields:
+              - { label: "Product Name", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
+          - label: "Social Media"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "YouTube URL", name: "youtube", widget: "string", required: false }
+              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+              - { label: "TikTok URL", name: "tiktok", widget: "string", required: false }
+
+      - label: "Legacy + Outreach"
+        name: "legacy-outreach"
+        file: "content/departments/legacy-outreach.json"
+        fields:
+          - { label: "Department Name", name: "name", widget: "string", default: "Legacy + Outreach" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Mission Statement", name: "mission", widget: "text" }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Service Name", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "string", required: false }
+          - label: "Impact Areas"
+            name: "impact"
+            widget: "list"
+            fields:
+              - { label: "Area Name", name: "area", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "string", required: false }
+          - label: "Core Values"
+            name: "values"
+            widget: "list"
+            fields:
+              - { label: "Value Name", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "string", required: false }
+          - label: "Social Media"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+              - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+              - { label: "LinkedIn URL", name: "linkedin", widget: "string", required: false }
+
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Department", name: "department", widget: "select", options: ["New Thing Hustle", "ProfitBoost Consulting", "Q&A Chronicles", "Legacy + Outreach"], required: false }
+

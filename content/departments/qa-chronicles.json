@@ -1,0 +1,55 @@
+{
+  "name": "Q&A Chronicles",
+  "tagline": "Faith, Family, Business, Music & Community",
+  "description": "Your hub for real stories, practical tips, and inspiration for entrepreneurial families striving to thrive without a 9-to-5. Managing our internal brands including faith + family media, apparel, books, music, and spiritual growth content.",
+  "mission": "To help entrepreneurial families build God-centered businesses and legacies through authentic storytelling, practical resources, and faith-driven content that inspires and equips families to thrive in their purpose.",
+  "logo": "/logos/qa-chronicles-logo.png",
+  "brands": [
+    {
+      "title": "Faith + Family Media",
+      "description": "Real stories, practical tips, and inspiration for entrepreneurial families",
+      "icon": "📺"
+    },
+    {
+      "title": "Q&A Faith Co. Apparel",
+      "description": "Apparel & accessories with a prophetic message",
+      "icon": "👕"
+    },
+    {
+      "title": "Books & Digital Products",
+      "description": "Devotionals, e-books, journals, workbooks, marriage studies",
+      "icon": "📚"
+    },
+    {
+      "title": "Qwhitemusic & Que the Word",
+      "description": "Inspirational music and Bible studies for spiritual growth",
+      "icon": "🎵"
+    }
+  ],
+  "products": [
+    {
+      "title": "The Hustle that Honors God",
+      "description": "A guide to building a God-centered business",
+      "image": "/images/TheHustlethatHonorsGod(coverpage).jpg",
+      "link": ""
+    },
+    {
+      "title": "The Crown & Cover",
+      "description": "Couples workbook for strengthening relationships",
+      "image": "/images/TheCrown&CoverCouplesworkbook.jpg",
+      "link": ""
+    },
+    {
+      "title": "Q&A Faith Co.",
+      "description": "Prophetic apparel and accessories",
+      "image": "/images/2.png",
+      "link": ""
+    }
+  ],
+  "social": {
+    "youtube": "https://www.youtube.com/@qnachronicles",
+    "instagram": "https://www.instagram.com/qnachronicles",
+    "tiktok": "https://www.tiktok.com/@qnachronicles"
+  }
+}
+

@@ -1,0 +1,39 @@
+{
+  "name": "ProfitBoost Consulting",
+  "tagline": "Real Estate & Investment Advisory",
+  "description": "Tailored for entrepreneurs and investors building generational wealth through strategic real estate investments, comprehensive business planning, and expert financial guidance. Your trusted partner in wealth creation.",
+  "logo": "/logos/profitboost-consulting-logo.png",
+  "stats": {
+    "assets": "$10M+",
+    "clients": "500+",
+    "experience": "15+"
+  },
+  "services": [
+    {
+      "title": "Custom Business Plans",
+      "description": "Tailored business strategies for your unique goals",
+      "icon": "📋"
+    },
+    {
+      "title": "CMA Reports",
+      "description": "Comprehensive market analysis for real estate deals",
+      "icon": "📊"
+    },
+    {
+      "title": "Investment Strategy",
+      "description": "Strategic planning for generational wealth building",
+      "icon": "💰"
+    },
+    {
+      "title": "Property Planning & Referrals",
+      "description": "Expert guidance and trusted network connections",
+      "icon": "🏢"
+    }
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/profitboost-consulting",
+    "facebook": "",
+    "instagram": ""
+  }
+}
+
